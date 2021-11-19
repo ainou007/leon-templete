@@ -13,6 +13,10 @@ body {
     --main-text-color: #2c4755;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 100%;
     max-width: 1170px;
@@ -525,6 +529,10 @@ body {
     .contact .contact-content>a {
         font-size: 22px;
     }
+}
+
+.contact {
+    background-color: #fafafa;
 }
 
 .contact .contact-content>div {
